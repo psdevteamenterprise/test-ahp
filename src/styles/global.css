@@ -1,0 +1,233 @@
+/* CSS reference: https://www.wix.com/velo/reference/$w/styling-elements-with-css */
+
+/* These CSS styles will be applied globally to every page of this site. Write your CSS here, e.g.: */
+
+/*  Change button background color to red: */
+/* .button {
+    background-color: red;
+} */
+
+.sticky {
+  position: sticky;
+}
+
+.profile_image {
+  cursor: pointer;
+}
+
+.header_two {
+  box-shadow: 1px 11px 22px 0px rgba(0, 0, 0, 0.75) inset;
+  -webkit-box-shadow: 1px 11px 22px 0px rgba(0, 0, 0, 0.75) inset;
+  -moz-box-shadow: 1px 11px 22px 0px rgba(0, 0, 0, 0.75) inset;
+}
+
+.banner_text {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.text_uppercase {
+  text-transform: uppercase;
+}
+
+
+.interestRepeater {
+  z-index: 999;
+  cursor: pointer;
+}
+
+.statedropdown select:disabled {
+  opacity: 1;
+}
+
+
+.lightbox {
+  border-radius: 15px;
+}
+
+
+.AccordionContainerHeaderIcon3990976808_root svg path {
+  width: 50px;
+  height: 100px;
+}
+
+#imageX25 {
+  height: 80px;
+}
+
+#box247 {
+  border-radius: 500px;
+  border-color: blueviolet;
+}
+
+.current-step {
+  background-color: #C4D47C;
+}
+
+.accordion__icon {
+  background-image: url("https://static.wixstatic.com/shapes/1d7134_ef205980dfd2425ebc83f7437e3e65e9.svg");
+  background-size: 26px 26px !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.personal li:first-child .accordion__icon {
+  background-image: url("https://static.wixstatic.com/shapes/1d7134_54a6b6d630064815b84b5d60ef9b0f61.svg");
+  background-size: 36px 36px !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.business li:nth-child(2) .accordion__icon {
+  background-image: url("https://static.wixstatic.com/shapes/1d7134_54a6b6d630064815b84b5d60ef9b0f61.svg");
+  background-size: 36px 36px !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.contact li:nth-child(3) .accordion__icon {
+  background-image: url("https://static.wixstatic.com/shapes/1d7134_54a6b6d630064815b84b5d60ef9b0f61.svg");
+  background-size: 36px 36px !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.gallery li:nth-child(4) .accordion__icon {
+  background-image: url("https://static.wixstatic.com/shapes/1d7134_54a6b6d630064815b84b5d60ef9b0f61.svg");
+  background-size: 36px 36px !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Mobile override */
+@media screen and (max-width: 767px) {
+  .accordion__icon {
+    background-size: 13px 13px !important;
+  }
+}
+
+/* .radio-button-group__input {
+   border-radius: 2px !important;
+}   */
+
+
+.radio-button-group__input-selection {
+  background-image: url('https://static.wixstatic.com/shapes/1d7134_000e7e1b760445a4b75fc01fcd39d6e8.svg') !important;
+  background-size: 9px 9px !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+
+}
+
+
+.upload-button__icon {
+  background-image: url('https://static.wixstatic.com/shapes/7d8a9e_98fb8b4c10fa4315afe9d12084188d5b.svg') !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.upload-button__icon {
+  background-image: url('https://static.wixstatic.com/shapes/7d8a9e_98fb8b4c10fa4315afe9d12084188d5b.svg') !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px 16px;
+}
+
+.upload-button:hover .upload-button__icon {
+  background-image: url('https://static.wixstatic.com/shapes/1d7134_aac61d9ddf764734ad876292a39b270a.svg') !important;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.upload-button__icon rect {
+  fill: transparent !important;
+}
+
+.highlighted-text .rich-text__text {
+  color: #0C3058 !important;
+}
+
+.area-of-practice-container {
+  z-index: 1000;
+}
+
+.city-container {
+  z-index: 2000;
+}
+
+.state-container {
+  z-index: 3000;
+}
+
+.disabled-text .checkbox__label {
+  color: #D9D9D9 !important;
+}
+
+.disabled-checkbox .checkbox__input{
+  color: #D9D9D9 !important;
+  border-color: #D9D9D9 !important;
+}
+.upload-button .upload-button__field-title {
+  display: none !important;
+}
+
+.radio-button .checkbox__input {
+  border-radius: 20px !important;
+}
+
+
+/* .add-testimonial .button__icon{
+    background-image: url('https://static.wixstatic.com/shapes/1d7134_000e7e1b760445a4b75fc01fcd39d6e8.svg') !important;
+    background-size: 9px 9px !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    fill: white;
+    width: 16px;
+    height: 16px;
+} */
+
+/* .add-testimonial .button__icon {
+  background-image: url('https://static.wixstatic.com/shapes/1d7134_000e7e1b760445a4b75fc01fcd39d6e8.svg') !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  width: 18px !important;
+  height: 18px !important;
+  background-color: transparent !important;
+} */
+
+/* .add-testimonial .button__icon svg {
+  width: 18px !important;
+  height: 18px !important;
+}
+
+.add-testimonial .button__icon svg path {
+  fill: transparent !important;
+} */
+
+.accordion__container {
+  overflow: clip;
+}
+
+.text-link a {
+  color: #A0AB60;
+  text-decoration-color: transparent;
+  /* No underline initially */
+  text-decoration: underline;
+}
+
+.text-link a:hover {
+  text-decoration-color: #A0AB60;
+  /* Green underline on hover */
+}
+
+.filter-input-disable input:disabled::placeholder {
+  color: #888888 !important;
+}
+
+
+
+.disabeld-step.vector-image svg path {
+  fill: #0C3058 !important;
+}
