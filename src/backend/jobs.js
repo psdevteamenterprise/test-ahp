@@ -10,8 +10,8 @@ export async function runScheduledTasks() {
   return await _runScheduledTasks();
 }
 
-export async function scheduleDailyPullTask(backupDate) {
-  return await _scheduleDailyPullTask(backupDate);
+export async function scheduleDailyPullTask() {
+  return await _scheduleDailyPullTask({ isTestEnvironment: true });
 }
 
 export async function updateSiteMapS3() {
