@@ -11,6 +11,7 @@ import {
   saveRegistrationData as _saveRegistrationData,
   trackButtonClick as _trackButtonClick,
   createLoginMethods,
+  isEmailAlreadyUsed as _isEmailAlreadyUsed,
 } from 'abmp-npm/backend';
 
 //There is no generateSessionToken SDK version,  and the signOn of @wix/identity returns 403 error regardless that the permissions are valid
@@ -54,4 +55,9 @@ export const authenticateSSOToken = webMethod(
 export const trackButtonClick = webMethod(
   Permissions.SiteMember,
   _trackButtonClick
+);
+
+export const isEmailAlreadyUsed = webMethod(
+  Permissions.SiteMember,
+  _isEmailAlreadyUsed
 );
