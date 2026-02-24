@@ -63,7 +63,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ],\
       [\
         "@wix/auto_sdk_automations_action-catalog",\
-        "npm:1.0.41"\
+        "npm:1.0.42"\
       ],\
       [\
         "@wix/auto_sdk_automations_action-provider",\
@@ -303,7 +303,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ],\
       [\
         "@wix/automations",\
-        "npm:1.0.396"\
+        "npm:1.0.397"\
       ],\
       [\
         "@wix/crm",\
@@ -447,7 +447,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ],\
       [\
         "abmp-npm",\
-        "npm:1.10.41"\
+        "npm:2.0.41"\
       ],\
       [\
         "async-function",\
@@ -647,7 +647,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["abmp-npm", "npm:1.10.41"]\
+            ["abmp-npm", "npm:2.0.41"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -796,10 +796,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@wix/auto_sdk_automations_action-catalog", [\
-        ["npm:1.0.41", {\
-          "packageLocation": "../dynamic-modules/yarn-cache/cache/@wix-auto_sdk_automations_action-catalog-npm-1.0.41-e4b812673b-8c0.zip/node_modules/@wix/auto_sdk_automations_action-catalog/",\
+        ["npm:1.0.42", {\
+          "packageLocation": "../dynamic-modules/yarn-cache/cache/@wix-auto_sdk_automations_action-catalog-npm-1.0.42-3dc080daee-8c0.zip/node_modules/@wix/auto_sdk_automations_action-catalog/",\
           "packageDependencies": [\
-            ["@wix/auto_sdk_automations_action-catalog", "npm:1.0.41"],\
+            ["@wix/auto_sdk_automations_action-catalog", "npm:1.0.42"],\
             ["@wix/sdk-runtime", "npm:1.0.8"],\
             ["@wix/sdk-types", "npm:1.17.4"]\
           ],\
@@ -1456,11 +1456,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@wix/automations", [\
-        ["npm:1.0.396", {\
-          "packageLocation": "../dynamic-modules/yarn-cache/cache/@wix-automations-npm-1.0.396-c324e89e79-8c0.zip/node_modules/@wix/automations/",\
+        ["npm:1.0.397", {\
+          "packageLocation": "../dynamic-modules/yarn-cache/cache/@wix-automations-npm-1.0.397-16a6c59fa4-8c0.zip/node_modules/@wix/automations/",\
           "packageDependencies": [\
-            ["@wix/automations", "npm:1.0.396"],\
-            ["@wix/auto_sdk_automations_action-catalog", "npm:1.0.41"],\
+            ["@wix/automations", "npm:1.0.397"],\
+            ["@wix/auto_sdk_automations_action-catalog", "npm:1.0.42"],\
             ["@wix/auto_sdk_automations_action-provider", "npm:1.0.51"],\
             ["@wix/auto_sdk_automations_activation-action-log", "npm:1.0.28"],\
             ["@wix/auto_sdk_automations_activation-action-summary", "npm:1.0.18"],\
@@ -2073,11 +2073,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["abmp-npm", [\
-        ["npm:1.10.41", {\
-          "packageLocation": "../dynamic-modules/yarn-cache/cache/abmp-npm-npm-1.10.41-3c81a6a395-8c0.zip/node_modules/abmp-npm/",\
+        ["npm:2.0.41", {\
+          "packageLocation": "../dynamic-modules/yarn-cache/cache/abmp-npm-npm-2.0.41-4a4f763d2c-8c0.zip/node_modules/abmp-npm/",\
           "packageDependencies": [\
-            ["abmp-npm", "npm:1.10.41"],\
-            ["@wix/automations", "npm:1.0.396"],\
+            ["abmp-npm", "npm:2.0.41"],\
+            ["@wix/automations", "npm:1.0.397"],\
             ["@wix/crm", "npm:1.0.1477"],\
             ["@wix/data", "npm:1.0.403"],\
             ["@wix/essentials", "npm:0.1.28"],\
@@ -2638,7 +2638,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["user-code", "workspace:."],\
-            ["abmp-npm", "npm:1.10.41"]\
+            ["abmp-npm", "npm:2.0.41"]\
           ],\
           "linkType": "SOFT"\
         }]\
