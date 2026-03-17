@@ -4,6 +4,7 @@ import {
   updateSiteMapS3 as _updateSiteMapS3,
   scheduleContactFormEmailMigration,
   scheduleEmailSync,
+  scheduleFixPrimaryAddressForMembersTask as _scheduleFixPrimaryAddressForMembersTask,
 } from 'abmp-npm/backend';
 
 export async function runScheduledTasks() {
@@ -35,4 +36,8 @@ export async function scheduleMigrateContactFormEmails() {
 }
 export async function scheduleLoginEmailsSync() {
   return await scheduleEmailSync();
+}
+
+export async function scheduleFixPrimaryAddressForMembersTask() {
+  return await _scheduleFixPrimaryAddressForMembersTask();
 }
