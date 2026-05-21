@@ -35,7 +35,7 @@ export const getNonCompiledFiltersOptions = webMethod(
 );
 export const filterProfiles = webMethod(Permissions.Anyone, _filterProfiles);
 export const validateMemberToken = webMethod(
-  Permissions.SiteMember,
+  Permissions.Anyone,
   _validateMemberToken
 );
 export const getInterestAll = webMethod(Permissions.Anyone, _getInterestAll);
