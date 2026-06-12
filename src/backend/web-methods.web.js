@@ -1,5 +1,4 @@
 import { Permissions, webMethod } from 'wix-web-module';
-import { authentication } from 'wix-members-backend';
 import {
   contactSubmission as _contactSubmission,
   getCompiledFiltersOptions as _getCompiledFiltersOptions,
@@ -10,16 +9,10 @@ import {
   checkUrlUniqueness as _checkUrlUniqueness,
   saveRegistrationData as _saveRegistrationData,
   trackButtonClick as _trackButtonClick,
-  createLoginMethods,
+  loginQAMember as _loginQAMember,
+  authenticateSSOToken as _authenticateSSOToken,
   isEmailAlreadyUsed as _isEmailAlreadyUsed,
 } from 'abmp-npm/backend';
-
-//There is no generateSessionToken SDK version,  and the signOn of @wix/identity returns 403 error regardless that the permissions are valid
-//Therefore, as a workaround we need to inject the Velo version of generateSessionToken to the login methods.
-const {
-  loginQAMember: _loginQAMember,
-  authenticateSSOToken: _authenticateSSOToken,
-} = createLoginMethods(authentication.generateSessionToken);
 
 export const contactSubmission = webMethod(
   Permissions.Anyone,
