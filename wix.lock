@@ -483,7 +483,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ],\
       [\
         "abmp-npm",\
-        "npm:2.0.70"\
+        "npm:10.3.9"\
       ],\
       [\
         "agent-base",\
@@ -715,7 +715,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["abmp-npm", "npm:2.0.70"]\
+            ["abmp-npm", "npm:10.3.9"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -2326,10 +2326,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["abmp-npm", [\
-        ["npm:2.0.70", {\
-          "packageLocation": "../dynamic-modules/yarn-cache/cache/abmp-npm-npm-2.0.70-a207acd28e-8c0.zip/node_modules/abmp-npm/",\
+        ["npm:10.3.9", {\
+          "packageLocation": "../dynamic-modules/yarn-cache/cache/abmp-npm-npm-10.3.9-bc76d573e9-8c0.zip/node_modules/abmp-npm/",\
           "packageDependencies": [\
-            ["abmp-npm", "npm:2.0.70"],\
+            ["abmp-npm", "npm:10.3.9"],\
             ["@wix/automations", "npm:1.0.440"],\
             ["@wix/crm", "npm:1.0.1560"],\
             ["@wix/data", "npm:1.0.472"],\
@@ -2347,6 +2347,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["axios", "npm:1.17.0"],\
             ["crypto", "npm:1.0.1"],\
             ["csv-parser", "npm:3.2.1"],\
+            ["debug", "virtual:428f325a939c2653ad822eb3d75efb02ac311523dd0d4f9645afc39ea00bd86eceac35a9d59c9b6977d76b670a4ef0ae057ea572338a44729aa592711a8c05a3#npm:4.4.3"],\
             ["jwt-js-decode", "npm:1.9.0"],\
             ["lodash", "npm:4.18.1"],\
             ["ngeohash", "npm:0.6.3"],\
@@ -2996,7 +2997,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["user-code", "workspace:."],\
-            ["abmp-npm", "npm:2.0.70"]\
+            ["abmp-npm", "npm:10.3.9"]\
           ],\
           "linkType": "SOFT"\
         }]\
