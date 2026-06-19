@@ -6,6 +6,7 @@ import {
   scheduleEmailSync,
   scheduleFixPrimaryAddressForMembersTask as _scheduleFixPrimaryAddressForMembersTask,
   scheduleNormalizeMemberEmailsTask as _scheduleNormalizeMemberEmailsTask,
+  scheduleHideAllMemberAddressesTask as _scheduleHideAllMemberAddressesTask,
 } from 'abmp-npm/backend';
 
 export async function runScheduledTasks() {
@@ -45,4 +46,8 @@ export async function scheduleFixPrimaryAddressForMembersTask() {
 
 export async function scheduleNormalizeMemberEmailsTask(){
   return await _scheduleNormalizeMemberEmailsTask();
+}
+
+export async function scheduleHideAllMemberAddressesTask(){
+  return await _scheduleHideAllMemberAddressesTask();
 }
