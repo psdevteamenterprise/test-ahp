@@ -95,7 +95,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ],\
       [\
         "@wix/auto_sdk_automations_automations-v-2",\
-        "npm:1.0.146"\
+        "npm:1.0.147"\
       ],\
       [\
         "@wix/auto_sdk_automations_custom-trigger",\
@@ -219,7 +219,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ],\
       [\
         "@wix/auto_sdk_identity_sign-on-policy",\
-        "npm:1.0.1"\
+        "npm:1.0.2"\
       ],\
       [\
         "@wix/auto_sdk_identity_verification",\
@@ -235,7 +235,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ],\
       [\
         "@wix/auto_sdk_media_files",\
-        "npm:1.0.96"\
+        "npm:1.0.97"\
       ],\
       [\
         "@wix/auto_sdk_media_folders",\
@@ -243,7 +243,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ],\
       [\
         "@wix/auto_sdk_members_authentication",\
-        "npm:1.0.45"\
+        "npm:1.0.46"\
       ],\
       [\
         "@wix/auto_sdk_members_authorization",\
@@ -271,7 +271,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ],\
       [\
         "@wix/auto_sdk_members_custom-fields",\
-        "npm:1.0.59"\
+        "npm:1.0.60"\
       ],\
       [\
         "@wix/auto_sdk_members_default-privacy",\
@@ -291,7 +291,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ],\
       [\
         "@wix/auto_sdk_members_member-role-definition",\
-        "npm:1.0.47"\
+        "npm:1.0.48"\
       ],\
       [\
         "@wix/auto_sdk_members_member-to-member-block",\
@@ -299,7 +299,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ],\
       [\
         "@wix/auto_sdk_members_members",\
-        "npm:1.0.131"\
+        "npm:1.0.132"\
       ],\
       [\
         "@wix/auto_sdk_members_members-about",\
@@ -307,7 +307,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ],\
       [\
         "@wix/auto_sdk_members_user-member",\
-        "npm:1.0.56"\
+        "npm:1.0.57"\
       ],\
       [\
         "@wix/auto_sdk_redirects_redirects",\
@@ -327,7 +327,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ],\
       [\
         "@wix/automations",\
-        "npm:1.0.491"\
+        "npm:1.0.492"\
       ],\
       [\
         "@wix/crm",\
@@ -391,7 +391,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ],\
       [\
         "@wix/identity",\
-        "npm:1.0.230"\
+        "npm:1.0.231"\
       ],\
       [\
         "@wix/image-kit",\
@@ -399,11 +399,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ],\
       [\
         "@wix/media",\
-        "npm:1.0.271"\
+        "npm:1.0.272"\
       ],\
       [\
         "@wix/members",\
-        "npm:1.0.511"\
+        "npm:1.0.515"\
       ],\
       [\
         "@wix/monitoring",\
@@ -491,7 +491,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ],\
       [\
         "abmp-npm",\
-        "npm:2.0.81"\
+        "npm:10.3.16"\
       ],\
       [\
         "agent-base",\
@@ -723,7 +723,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["abmp-npm", "npm:2.0.81"]\
+            ["abmp-npm", "npm:10.3.16"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -968,10 +968,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@wix/auto_sdk_automations_automations-v-2", [\
-        ["npm:1.0.146", {\
-          "packageLocation": "../dynamic-modules/yarn-cache/cache/@wix-auto_sdk_automations_automations-v-2-npm-1.0.146-c1a97d5ed5-8c0.zip/node_modules/@wix/auto_sdk_automations_automations-v-2/",\
+        ["npm:1.0.147", {\
+          "packageLocation": "../dynamic-modules/yarn-cache/cache/@wix-auto_sdk_automations_automations-v-2-npm-1.0.147-43f81b5062-8c0.zip/node_modules/@wix/auto_sdk_automations_automations-v-2/",\
           "packageDependencies": [\
-            ["@wix/auto_sdk_automations_automations-v-2", "npm:1.0.146"],\
+            ["@wix/auto_sdk_automations_automations-v-2", "npm:1.0.147"],\
             ["@wix/sdk-runtime", "npm:1.0.24"],\
             ["@wix/sdk-types", "npm:1.17.11"],\
             ["zod", "npm:4.4.3"]\
@@ -1340,10 +1340,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@wix/auto_sdk_identity_sign-on-policy", [\
-        ["npm:1.0.1", {\
-          "packageLocation": "../dynamic-modules/yarn-cache/cache/@wix-auto_sdk_identity_sign-on-policy-npm-1.0.1-60da837a2e-8c0.zip/node_modules/@wix/auto_sdk_identity_sign-on-policy/",\
+        ["npm:1.0.2", {\
+          "packageLocation": "../dynamic-modules/yarn-cache/cache/@wix-auto_sdk_identity_sign-on-policy-npm-1.0.2-22563d9ae1-8c0.zip/node_modules/@wix/auto_sdk_identity_sign-on-policy/",\
           "packageDependencies": [\
-            ["@wix/auto_sdk_identity_sign-on-policy", "npm:1.0.1"],\
+            ["@wix/auto_sdk_identity_sign-on-policy", "npm:1.0.2"],\
             ["@wix/sdk-runtime", "npm:1.0.24"],\
             ["@wix/sdk-types", "npm:1.17.11"],\
             ["zod", "npm:4.4.3"]\
@@ -1388,10 +1388,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@wix/auto_sdk_media_files", [\
-        ["npm:1.0.96", {\
-          "packageLocation": "../dynamic-modules/yarn-cache/cache/@wix-auto_sdk_media_files-npm-1.0.96-9a847510f1-8c0.zip/node_modules/@wix/auto_sdk_media_files/",\
+        ["npm:1.0.97", {\
+          "packageLocation": "../dynamic-modules/yarn-cache/cache/@wix-auto_sdk_media_files-npm-1.0.97-c72b1f2741-8c0.zip/node_modules/@wix/auto_sdk_media_files/",\
           "packageDependencies": [\
-            ["@wix/auto_sdk_media_files", "npm:1.0.96"],\
+            ["@wix/auto_sdk_media_files", "npm:1.0.97"],\
             ["@wix/sdk-runtime", "npm:1.0.24"],\
             ["@wix/sdk-types", "npm:1.17.11"],\
             ["zod", "npm:4.4.3"]\
@@ -1412,10 +1412,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@wix/auto_sdk_members_authentication", [\
-        ["npm:1.0.45", {\
-          "packageLocation": "../dynamic-modules/yarn-cache/cache/@wix-auto_sdk_members_authentication-npm-1.0.45-2258fb5df3-8c0.zip/node_modules/@wix/auto_sdk_members_authentication/",\
+        ["npm:1.0.46", {\
+          "packageLocation": "../dynamic-modules/yarn-cache/cache/@wix-auto_sdk_members_authentication-npm-1.0.46-79435c879a-8c0.zip/node_modules/@wix/auto_sdk_members_authentication/",\
           "packageDependencies": [\
-            ["@wix/auto_sdk_members_authentication", "npm:1.0.45"],\
+            ["@wix/auto_sdk_members_authentication", "npm:1.0.46"],\
             ["@wix/sdk-runtime", "npm:1.0.24"],\
             ["@wix/sdk-types", "npm:1.17.11"],\
             ["zod", "npm:4.4.3"]\
@@ -1496,10 +1496,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@wix/auto_sdk_members_custom-fields", [\
-        ["npm:1.0.59", {\
-          "packageLocation": "../dynamic-modules/yarn-cache/cache/@wix-auto_sdk_members_custom-fields-npm-1.0.59-ceb49eb228-8c0.zip/node_modules/@wix/auto_sdk_members_custom-fields/",\
+        ["npm:1.0.60", {\
+          "packageLocation": "../dynamic-modules/yarn-cache/cache/@wix-auto_sdk_members_custom-fields-npm-1.0.60-84cbf7fdbe-8c0.zip/node_modules/@wix/auto_sdk_members_custom-fields/",\
           "packageDependencies": [\
-            ["@wix/auto_sdk_members_custom-fields", "npm:1.0.59"],\
+            ["@wix/auto_sdk_members_custom-fields", "npm:1.0.60"],\
             ["@wix/sdk-runtime", "npm:1.0.24"],\
             ["@wix/sdk-types", "npm:1.17.11"],\
             ["zod", "npm:4.4.3"]\
@@ -1556,10 +1556,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@wix/auto_sdk_members_member-role-definition", [\
-        ["npm:1.0.47", {\
-          "packageLocation": "../dynamic-modules/yarn-cache/cache/@wix-auto_sdk_members_member-role-definition-npm-1.0.47-9a84a12891-8c0.zip/node_modules/@wix/auto_sdk_members_member-role-definition/",\
+        ["npm:1.0.48", {\
+          "packageLocation": "../dynamic-modules/yarn-cache/cache/@wix-auto_sdk_members_member-role-definition-npm-1.0.48-a13027ffe6-8c0.zip/node_modules/@wix/auto_sdk_members_member-role-definition/",\
           "packageDependencies": [\
-            ["@wix/auto_sdk_members_member-role-definition", "npm:1.0.47"],\
+            ["@wix/auto_sdk_members_member-role-definition", "npm:1.0.48"],\
             ["@wix/sdk-runtime", "npm:1.0.24"],\
             ["@wix/sdk-types", "npm:1.17.11"],\
             ["zod", "npm:4.4.3"]\
@@ -1580,10 +1580,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@wix/auto_sdk_members_members", [\
-        ["npm:1.0.131", {\
-          "packageLocation": "../dynamic-modules/yarn-cache/cache/@wix-auto_sdk_members_members-npm-1.0.131-e4847e7bca-8c0.zip/node_modules/@wix/auto_sdk_members_members/",\
+        ["npm:1.0.132", {\
+          "packageLocation": "../dynamic-modules/yarn-cache/cache/@wix-auto_sdk_members_members-npm-1.0.132-4efeec7047-8c0.zip/node_modules/@wix/auto_sdk_members_members/",\
           "packageDependencies": [\
-            ["@wix/auto_sdk_members_members", "npm:1.0.131"],\
+            ["@wix/auto_sdk_members_members", "npm:1.0.132"],\
             ["@wix/sdk-runtime", "npm:1.0.24"],\
             ["@wix/sdk-types", "npm:1.17.11"],\
             ["zod", "npm:4.4.3"]\
@@ -1604,10 +1604,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@wix/auto_sdk_members_user-member", [\
-        ["npm:1.0.56", {\
-          "packageLocation": "../dynamic-modules/yarn-cache/cache/@wix-auto_sdk_members_user-member-npm-1.0.56-d7cad6c168-8c0.zip/node_modules/@wix/auto_sdk_members_user-member/",\
+        ["npm:1.0.57", {\
+          "packageLocation": "../dynamic-modules/yarn-cache/cache/@wix-auto_sdk_members_user-member-npm-1.0.57-baf78b3dd2-8c0.zip/node_modules/@wix/auto_sdk_members_user-member/",\
           "packageDependencies": [\
-            ["@wix/auto_sdk_members_user-member", "npm:1.0.56"],\
+            ["@wix/auto_sdk_members_user-member", "npm:1.0.57"],\
             ["@wix/sdk-runtime", "npm:1.0.24"],\
             ["@wix/sdk-types", "npm:1.17.11"],\
             ["zod", "npm:4.4.3"]\
@@ -1664,10 +1664,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@wix/automations", [\
-        ["npm:1.0.491", {\
-          "packageLocation": "../dynamic-modules/yarn-cache/cache/@wix-automations-npm-1.0.491-2a124e2f7e-8c0.zip/node_modules/@wix/automations/",\
+        ["npm:1.0.492", {\
+          "packageLocation": "../dynamic-modules/yarn-cache/cache/@wix-automations-npm-1.0.492-84c27fda10-8c0.zip/node_modules/@wix/automations/",\
           "packageDependencies": [\
-            ["@wix/automations", "npm:1.0.491"],\
+            ["@wix/automations", "npm:1.0.492"],\
             ["@wix/auto_sdk_automations_action-catalog", "npm:1.0.57"],\
             ["@wix/auto_sdk_automations_action-provider", "npm:1.0.59"],\
             ["@wix/auto_sdk_automations_activation-action-log", "npm:1.0.33"],\
@@ -1676,7 +1676,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@wix/auto_sdk_automations_activations", "npm:1.0.143"],\
             ["@wix/auto_sdk_automations_automation-templates", "npm:1.0.8"],\
             ["@wix/auto_sdk_automations_automations-service", "npm:1.0.68"],\
-            ["@wix/auto_sdk_automations_automations-v-2", "npm:1.0.146"],\
+            ["@wix/auto_sdk_automations_automations-v-2", "npm:1.0.147"],\
             ["@wix/auto_sdk_automations_custom-trigger", "npm:1.0.29"],\
             ["@wix/auto_sdk_automations_storage-item", "npm:1.0.22"],\
             ["@wix/auto_sdk_automations_trigger-catalog", "npm:1.0.61"],\
@@ -1979,14 +1979,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@wix/identity", [\
-        ["npm:1.0.230", {\
-          "packageLocation": "../dynamic-modules/yarn-cache/cache/@wix-identity-npm-1.0.230-55f47fdc9f-8c0.zip/node_modules/@wix/identity/",\
+        ["npm:1.0.231", {\
+          "packageLocation": "../dynamic-modules/yarn-cache/cache/@wix-identity-npm-1.0.231-494494639d-8c0.zip/node_modules/@wix/identity/",\
           "packageDependencies": [\
-            ["@wix/identity", "npm:1.0.230"],\
+            ["@wix/identity", "npm:1.0.231"],\
             ["@wix/auto_sdk_identity_authentication", "npm:1.0.57"],\
             ["@wix/auto_sdk_identity_oauth", "npm:1.0.53"],\
             ["@wix/auto_sdk_identity_recovery", "npm:1.0.46"],\
-            ["@wix/auto_sdk_identity_sign-on-policy", "npm:1.0.1"],\
+            ["@wix/auto_sdk_identity_sign-on-policy", "npm:1.0.2"],\
             ["@wix/auto_sdk_identity_verification", "npm:1.0.48"]\
           ],\
           "linkType": "HARD"\
@@ -2004,13 +2004,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@wix/media", [\
-        ["npm:1.0.271", {\
-          "packageLocation": "../dynamic-modules/yarn-cache/cache/@wix-media-npm-1.0.271-53f32d82e5-8c0.zip/node_modules/@wix/media/",\
+        ["npm:1.0.272", {\
+          "packageLocation": "../dynamic-modules/yarn-cache/cache/@wix-media-npm-1.0.272-0879f73a82-8c0.zip/node_modules/@wix/media/",\
           "packageDependencies": [\
-            ["@wix/media", "npm:1.0.271"],\
+            ["@wix/media", "npm:1.0.272"],\
             ["@wix/auto_sdk_media_enterprise-media-categories", "npm:1.0.37"],\
             ["@wix/auto_sdk_media_enterprise-media-items", "npm:1.0.38"],\
-            ["@wix/auto_sdk_media_files", "npm:1.0.96"],\
+            ["@wix/auto_sdk_media_files", "npm:1.0.97"],\
             ["@wix/auto_sdk_media_folders", "npm:1.0.57"],\
             ["@wix/headless-media", "npm:0.0.25"]\
           ],\
@@ -2018,27 +2018,27 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@wix/members", [\
-        ["npm:1.0.511", {\
-          "packageLocation": "../dynamic-modules/yarn-cache/cache/@wix-members-npm-1.0.511-362f0a1334-8c0.zip/node_modules/@wix/members/",\
+        ["npm:1.0.515", {\
+          "packageLocation": "../dynamic-modules/yarn-cache/cache/@wix-members-npm-1.0.515-6ed77e8c2e-8c0.zip/node_modules/@wix/members/",\
           "packageDependencies": [\
-            ["@wix/members", "npm:1.0.511"],\
-            ["@wix/auto_sdk_members_authentication", "npm:1.0.45"],\
+            ["@wix/members", "npm:1.0.515"],\
+            ["@wix/auto_sdk_members_authentication", "npm:1.0.46"],\
             ["@wix/auto_sdk_members_authorization", "npm:1.0.36"],\
             ["@wix/auto_sdk_members_badge-assignments", "npm:1.0.30"],\
             ["@wix/auto_sdk_members_badges", "npm:1.0.52"],\
             ["@wix/auto_sdk_members_badges-v-2", "npm:1.0.37"],\
             ["@wix/auto_sdk_members_custom-field-applications", "npm:1.0.41"],\
             ["@wix/auto_sdk_members_custom-field-suggestions", "npm:1.0.40"],\
-            ["@wix/auto_sdk_members_custom-fields", "npm:1.0.59"],\
+            ["@wix/auto_sdk_members_custom-fields", "npm:1.0.60"],\
             ["@wix/auto_sdk_members_default-privacy", "npm:1.0.34"],\
             ["@wix/auto_sdk_members_member-followers", "npm:1.0.44"],\
             ["@wix/auto_sdk_members_member-privacy-settings", "npm:1.0.59"],\
             ["@wix/auto_sdk_members_member-report", "npm:1.0.49"],\
-            ["@wix/auto_sdk_members_member-role-definition", "npm:1.0.47"],\
+            ["@wix/auto_sdk_members_member-role-definition", "npm:1.0.48"],\
             ["@wix/auto_sdk_members_member-to-member-block", "npm:1.0.35"],\
-            ["@wix/auto_sdk_members_members", "npm:1.0.131"],\
+            ["@wix/auto_sdk_members_members", "npm:1.0.132"],\
             ["@wix/auto_sdk_members_members-about", "npm:1.0.78"],\
-            ["@wix/auto_sdk_members_user-member", "npm:1.0.56"]\
+            ["@wix/auto_sdk_members_user-member", "npm:1.0.57"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2124,7 +2124,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "../dynamic-modules/yarn-cache/cache/@wix-sdk-npm-1.21.16-2e84ef6d9c-8c0.zip/node_modules/@wix/sdk/",\
           "packageDependencies": [\
             ["@wix/sdk", "npm:1.21.16"],\
-            ["@wix/identity", "npm:1.0.230"],\
+            ["@wix/identity", "npm:1.0.231"],\
             ["@wix/image-kit", "npm:1.125.0"],\
             ["@wix/redirects", "npm:1.0.125"],\
             ["@wix/sdk-context", "npm:0.0.1"],\
@@ -2369,17 +2369,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["abmp-npm", [\
-        ["npm:2.0.81", {\
-          "packageLocation": "../dynamic-modules/yarn-cache/cache/abmp-npm-npm-2.0.81-656d8c6649-8c0.zip/node_modules/abmp-npm/",\
+        ["npm:10.3.16", {\
+          "packageLocation": "../dynamic-modules/yarn-cache/cache/abmp-npm-npm-10.3.16-11dc18e24a-8c0.zip/node_modules/abmp-npm/",\
           "packageDependencies": [\
-            ["abmp-npm", "npm:2.0.81"],\
-            ["@wix/automations", "npm:1.0.491"],\
+            ["abmp-npm", "npm:10.3.16"],\
+            ["@wix/automations", "npm:1.0.492"],\
             ["@wix/crm", "npm:1.0.1615"],\
             ["@wix/data", "npm:1.0.512"],\
             ["@wix/essentials", "npm:1.0.14"],\
-            ["@wix/identity", "npm:1.0.230"],\
-            ["@wix/media", "npm:1.0.271"],\
-            ["@wix/members", "npm:1.0.511"],\
+            ["@wix/identity", "npm:1.0.231"],\
+            ["@wix/media", "npm:1.0.272"],\
+            ["@wix/members", "npm:1.0.515"],\
             ["@wix/secrets", "npm:1.0.73"],\
             ["@wix/site-location", "npm:1.34.0"],\
             ["@wix/site-members", "npm:1.36.0"],\
@@ -3040,7 +3040,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["user-code", "workspace:."],\
-            ["abmp-npm", "npm:2.0.81"]\
+            ["abmp-npm", "npm:10.3.16"]\
           ],\
           "linkType": "SOFT"\
         }]\
