@@ -4,6 +4,7 @@ import {
   scheduleExternalProfileImageMigration as _scheduleExternalProfileImageMigration,
   scheduleUrlMigration as _scheduleUrlMigration,
   scheduleUrlGeneration as _scheduleUrlGeneration,
+  scheduleAssociationExpiryBackfillTask as _scheduleAssociationExpiryBackfillTask,
 } from 'abmp-npm/backend';
 
 //this will be run only once by the developers during the migration
@@ -30,4 +31,9 @@ export async function scheduleMigrateExistingUrls() {
  */
 export async function scheduleGenerateMissingUrls() {
   return _scheduleUrlGeneration();
+}
+
+// This function is used to backfill association expiry
+export async function scheduleAssociationExpiryBackfill( dryRun = true ) {
+  return _scheduleAssociationExpiryBackfillTask({ dryRun });
 }
