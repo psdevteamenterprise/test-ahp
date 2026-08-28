@@ -6,7 +6,7 @@
     "react": "16.14.0"
   },
   "dependencies": {
-    "abmp-npm": "^10.3.18"
+    "abmp-npm": "^2.0.83"
   },
   "scripts": {
     "postinstall": "wix sync-types",

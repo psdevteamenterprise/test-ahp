@@ -491,7 +491,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ],\
       [\
         "abmp-npm",\
-        "npm:10.3.18"\
+        "npm:2.0.83"\
       ],\
       [\
         "agent-base",\
@@ -723,7 +723,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["abmp-npm", "npm:10.3.18"]\
+            ["abmp-npm", "npm:2.0.83"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -2369,10 +2369,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["abmp-npm", [\
-        ["npm:10.3.18", {\
-          "packageLocation": "../dynamic-modules/yarn-cache/cache/abmp-npm-npm-10.3.18-80c4dc1c94-8c0.zip/node_modules/abmp-npm/",\
+        ["npm:2.0.83", {\
+          "packageLocation": "../dynamic-modules/yarn-cache/cache/abmp-npm-npm-2.0.83-d73f64e9aa-8c0.zip/node_modules/abmp-npm/",\
           "packageDependencies": [\
-            ["abmp-npm", "npm:10.3.18"],\
+            ["abmp-npm", "npm:2.0.83"],\
             ["@wix/automations", "npm:1.0.492"],\
             ["@wix/crm", "npm:1.0.1615"],\
             ["@wix/data", "npm:1.0.512"],\
@@ -3040,7 +3040,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["user-code", "workspace:."],\
-            ["abmp-npm", "npm:10.3.18"]\
+            ["abmp-npm", "npm:2.0.83"]\
           ],\
           "linkType": "SOFT"\
         }]\
