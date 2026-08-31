@@ -5,6 +5,7 @@ import {
   scheduleUrlMigration as _scheduleUrlMigration,
   scheduleUrlGeneration as _scheduleUrlGeneration,
   scheduleAssociationExpiryBackfillTask as _scheduleAssociationExpiryBackfillTask,
+  scheduleMemberUpdatedBackfillTask as _scheduleMemberUpdatedBackfillTask,
 } from 'abmp-npm/backend';
 
 //this will be run only once by the developers during the migration
@@ -36,4 +37,10 @@ export async function scheduleGenerateMissingUrls() {
 // This function is used to backfill association expiry
 export async function scheduleAssociationExpiryBackfill( dryRun = true ) {
   return _scheduleAssociationExpiryBackfillTask({ dryRun });
+}
+
+// This function is used to backfill the memberUpdated flag that ranks filled-out
+// listings first. Leave dryRun true to report the tier split without writing.
+export async function scheduleMemberUpdatedBackfill( dryRun = true ) {
+  return _scheduleMemberUpdatedBackfillTask({ dryRun });
 }
